@@ -1,3 +1,17 @@
-function App() {}
+import React from 'react'
+import Header from './Components/Header'
+import Quiz from './Components/Quiz'
 
-export default App;
+const App = () => {
+  return (
+    <>
+      <Header />
+      <main>
+        <Quiz />
+      </main>
+    </>
+  )
+}
+
+export default App
+
